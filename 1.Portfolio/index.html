@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="split1 left">
+        <div class="centered">
+            <h1>BHUMIKA PATEL</h1>
+            <p>COMPUTER ENGENEERING AND TECHNOLOGY</p>
+            <br/>
+            <h3>PORTFOLIO</h3>
+            <img src="img_tree.png">
+        </div>
+    </div>
+
+    <div class="split2 right">
+        <div class="container">
+            <span class="btn" id="aboutBtn" onclick="show('about')">about</span>
+            <span class="btn" id="skillBtn" onclick="show('skill')">skill</span>
+            <span class="btn" id="contactBtn" onclick="show('contact')">contact</span> 
+            <span class="btn" id="hobbyBtn" onclick="show('hobby')">hobby</span>
+        </div>
+        <div class="hidden" id="aboutData" onclick="hide('about')">
+            <div class="middle aboutCont">
+                <span>
+                    HELLO EVERYONE, <br>
+                    MYSELF BHUMIKA PATEL.
+                    <br><br> 
+                    I DID COMPLETE MY BE IN COMPUTER ENGENEERING FROM <br>
+                    APOLLO INSTITUTE OF ENGENEERING. <br>
+                    <br><br>
+                    <h4>EXPERIENCE</h4>
+                    LIOM IT HUB PVT. LTD.</br>
+                    software developer</br>
+                    May - October 2021 | 6 month</br>
+                </span>
+            </div>
+        </div>
+        <div class="hidden" id="contactData" onclick="hide('contact')">
+            <div class="middle">
+                <span>
+                    <b>Email</b><br>
+                    <a href="mailto:patelbhumi9984@gmail.com">patelbhumi9984@gmail.com</a>
+                </span>
+                <br><br>
+                <span>
+                    <b>Mobile</b><br>
+                    <a href="tel:918780432116">+918780432116</a>
+                </span>
+                <br><br>
+                <span>
+                    <b>address</b><br>
+                    <a href="">A/7,Ganshayamnagar society,
+                        Saijpur bogha, Ahmedabad, India, IN,
+                        382345</a>
+                </span>
+                <br><br>
+                <hr><br>
+                <a href=""><i class="fa fa-instagram"></i></a>
+                <a href=""><i class="fa fa-facebook"></i></a>
+                <a href=""><i class="fa fa-whatsapp"></i></a>
+                <a href=""><i class="fa fa-twitter"></i></a>
+                <a href=""><i class="fa fa-linkedin"></i></a>
+                <a href=""><i class="fa fa-github"></i></a>
+            </div>
+        </div>
+        <div class="hidden" id="skillData" onclick="hide('skill')">
+            <div class="middle">
+                <div class="skillSet">
+                    <span>HTML</span><br>
+                    <span>CSS</span><br>
+                    <span>bootstrap</span><br>
+                    <span>javascript</span><br>
+                    <span>Reactjs</span><br>
+                </div>
+            </div>
+        </div>
+        <div class="hidden" id="hobbyData" onclick="hide('hobby')">
+            <div class="middle">
+                <div class="hobbyBtn">
+                    <span>Playing football</span><br>
+                    <span>travelling</span><br>
+                    <span>listening music</span><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
